@@ -1,3 +1,6 @@
+#if the value is smaller, change higher bound and mid value becomes new upper value.
+#if the value is bigger, change lower bound and mid value becomes new lower value.
+
 def binarysearch(list, n):
     lower = 0
     upper = len(list)-1
@@ -21,3 +24,5 @@ if binarysearch(list, n):
     print("Found at", result+1)
 else:
     print("Not found")
+    
+   
